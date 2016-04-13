@@ -12,6 +12,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Header */
 
 .site-header {
@@ -59,6 +63,8 @@ body {
 
 /* Main */
 
+/* Banner */
+
 .home-banner {
   position: relative;
   height: 100vh;
@@ -80,6 +86,42 @@ body {
   color: #fff;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* About */
+
+.section-about {
+  max-width: 960px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  overflow: hidden; /*clears the floats and prevents next elements from being affected by floats*/
+}
+
+.section-about .content {
+  float: left;
+  margin-right: 300px;
+}
+
+.section-about .sidebar {
+  float: right;
+  width: 300px;
+  margin-left: -300px;
+}
+
+.content-image {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.pullquote {
+  font-size: 30px;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  text-align: center;
 }
 
 /* Footer */
