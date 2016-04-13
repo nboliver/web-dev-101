@@ -167,6 +167,40 @@ img {
   transform: translateY(0);
 }
 
+/* Contact */
+
+.section-contact {
+  max-width: 600px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px dashed pink;
+}
+
+.input-textarea {
+  height: 200px;
+}
+
+.button-submit {
+  padding: 20px;
+  background-color: pink;
+  border: 0; /* over-ride browser default */
+  box-shadow: 4px 4px 0 0 hotpink;
+  transition: box-shadow 0.3s ease;
+}
+
+.button-submit:hover {
+  box-shadow: none;
+}
+
 /* Footer */
 
 .site-footer {

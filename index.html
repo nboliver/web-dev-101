@@ -15,7 +15,7 @@
   <body>
     <header class="site-header">
       <h1 class="brand">
-        <a href="/">
+        <a href="#">
           <img src="img/icon-cat.png" alt="cat icon">
         </a>
       </h1>
@@ -25,7 +25,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#photos">Photos</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul> 
       </nav>
     </header>
@@ -138,6 +138,22 @@
             <figcaption>My friends!</figcaption>
           </figure>
         </div>
+      </section>
+
+      <section class="section-contact" id="contact">
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input class="input-text" type="text" id="name" placeholder="Enter your full name" />
+
+          <label for="email">Email:</label>
+          <input class="input-text" type="email" id="email" placeholder="Enter your email address" />
+
+          <label for="message">Message:</label>
+          <textarea class="input-text input-textarea" id="message" placeholder="What's on your mind?"></textarea>
+
+          <input class="button-submit" type="submit" value="Send message" />
+        </form>
       </section>
     </main>
 
